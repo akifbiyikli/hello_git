@@ -39,5 +39,18 @@ git init
 
 
 
-# git branch -d new_feature2
-# git checkout -b new_feature
+# git branch -d new_feature2 -- başka bir brach oluşturur
+# git checkout -b new_feature -- o başka brancha girerek çalışma imkanı sağlar
+
+#git pull origin master
+
+#git branch -D new_feature2
+
+# git merge new_feature
+
+
+
+
+
+
+
