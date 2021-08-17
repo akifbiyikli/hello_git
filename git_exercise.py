@@ -18,14 +18,14 @@ git init
 
 #git log
 
+#git log --pretty=oneline
+
+
 #git commit
 # git commit -am "comment"
 
 #git reset --soft commit_id
 
-# git branch -d new_feature2
-# git checkout -b new_feature
-#git log --pretty=oneline
 
 
 # soft : belirtilen committen sonraki commitleri siler. Dosyalardaki değişiklikler bozulmaz. Düzenlenmiş dosyalar git'e eklenir.
@@ -37,3 +37,7 @@ git init
 
 #hard: belirtilen committen sonraki commitleri siler. Dosyalarda yapılan değişiklikler geri alınır. Yapılan her şey uçar.
 
+
+
+# git branch -d new_feature2
+# git checkout -b new_feature
